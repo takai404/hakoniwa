@@ -1,0 +1,11 @@
+        graph [nodesep=0.6]
+
+        {rank=same; core1; core2;}
+        core1 -> access1 [style=invis]
+        core1 -> access2 [style=invis]
+        core2 -> access3 [style=invis]
+        core2 -> access4 [style=invis]
+        access1:s -> pc1 [style=invis]
+        access2:s -> pc2 [style=invis]
+        access3:s -> pc3 [style=invis]
+        access4:s -> pc4 [style=invis]
