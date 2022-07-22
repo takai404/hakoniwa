@@ -1,0 +1,30 @@
+@startuml
+<style>
+nwdiagDiagram {
+  network {
+    BackGroundColor Orange
+  }
+  server {
+    BackGroundColor LemonChiffon
+    LineColor black
+    FontStyle bold
+    Shadowing 1
+  }
+  arrow {
+    FontSize 12
+    FontColor Red
+    FontStyle bold
+    LineColor Chocolate
+  }
+}
+</style>
+nwdiag {
+  network lan0{
+    address = "10.0.0.0/24";
+    pc1 [address = "10.0.0.1"];
+    pc2 [address = "10.0.0.2"];
+    pc3 [address = "10.0.0.3"];
+    pc4 [address = "10.0.0.4"];
+  }
+}
+@enduml
